@@ -12,6 +12,23 @@ To use it:
     $ cd 4.8.3
     $ make
 
+To clean up and remove everything you can run
+
+    $ make clean
+
+or
+
+    $ make clean-all
+
+what they specifically clean up
+
+    clean-all:
+        rm -rf bld src rtf archives logs
+    
+    clean:
+        rm -rf bld src rtf *~
+
+
 For more detailed information see http://joelinoff.com/blog/?p=1514.
 
 Script details
