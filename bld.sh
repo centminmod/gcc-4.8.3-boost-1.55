@@ -104,6 +104,9 @@ function get-platform
     if [ ! -f /usr/bin/lsb_release ]; then
         yum -y -q install redhat-lsb-core
     fi
+    echo
+    yum -y install textinfo glibc-devel.i686 --disableexcludes=main
+    echo
     local plat=$(get-platform-root)
     case "$plat" in
         "gnu/linux")
