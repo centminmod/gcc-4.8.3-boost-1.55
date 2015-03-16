@@ -101,6 +101,9 @@ function get-platform-root
 # ================================================================
 function get-platform
 {
+    if [ ! -f /usr/bin/lsb_release ]; then
+        yum -y -q install redhat-lsb-core
+    fi
     local plat=$(get-platform-root)
     case "$plat" in
         "gnu/linux")
