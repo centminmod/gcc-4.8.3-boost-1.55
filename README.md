@@ -1,7 +1,7 @@
 gcc-4.8.3-boost-1.55
 ====================
 
-Bash script to install gcc-4.8.3 and boost-1.55 on CentOS 5.x, CentOS 6.x and Mac OS X. It handles the dependent packages like gmp-5.1.3, mpfr-3.1.2, mpc-1.0.2, ppl-1.1, cloog-0.18.0 and binutils-2.24.
+Bash script to install gcc-4.8.3 and boost-1.55 on CentOS 5.x, CentOS 6.x and Mac OS X. It handles the dependent packages like gmp-5.1.3, mpfr-3.1.2, mpc-1.0.2, ppl-1.1, cloog-0.18.3 and binutils-2.24.
 
 To use it:
 
@@ -50,7 +50,7 @@ Packages Installed
 
 * binutils    2.24    http://ftp.gnu.org/gnu/binutils
 * boost       1.55.0  http://sourceforge.net/projects/boost/files/boost
-* cloog       0.18.0  http://www.bastoul.net/cloog”>http://www.bastoul.net/cloog
+* cloog       0.18.3  http://www.bastoul.net/cloog
 * gcc         4.8.3   http://ftp.gnu.org/gnu/gcc
 * gmp         5.1.3   http://gmplib.org/
 * libiconv    1.14    http://ftp.gnu.org/pub/gnu/libiconv

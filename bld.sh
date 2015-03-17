@@ -4,7 +4,7 @@
 #
 # This downloads, builds and installs the gcc-4.8.3 compiler and boost
 # 1.55. It handles the dependent packages like gmp-5.1.3, mpfr-3.1.2,
-# mpc-1.0.2, ppl-1.1, cloog-0.18.0 and binutils-2.24.
+# mpc-1.0.2, ppl-1.1, cloog-0.18.3 and binutils-2.24.
 #
 # To install gcc-4.8.3 in ~/tmp/gcc-4.8.3/rtf/bin you would run this
 # script as follows:
@@ -320,7 +320,7 @@ ARS=(
     http://www.mpfr.org/mpfr-current/mpfr-3.1.2.tar.bz2
     http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz
     http://bugseng.com/products/ppl/download/ftp/releases/1.1/ppl-1.1.tar.bz2
-    http://www.bastoul.net/cloog/pages/download/cloog-0.18.0.tar.gz
+    http://www.bastoul.net/cloog/pages/download/cloog-0.18.3.tar.gz
     http://ftp.gnu.org/gnu/gcc/gcc-4.8.3/gcc-4.8.3.tar.bz2
     http://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2
     http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.bz2
@@ -512,7 +512,7 @@ for ar in ${ARS[@]} ; do
                 ;;
 
             gcc-*)
-                # We are using a newer version of CLooG (0.18.0).
+                # We are using a newer version of CLooG (0.18.3).
                 # I have also made stack protection available
                 # (similar to DEP in windows).
                 CONF_ARGS=(
