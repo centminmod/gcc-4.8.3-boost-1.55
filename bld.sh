@@ -272,6 +272,7 @@ function check-platform
         'linux-centos-6.3-x86_64'
         'linux-centos-6.4-x86_64'
         'linux-centos-6.5-x86_64'
+        'linux-centos-6.6-x86_64'
         'macos-darwin-13.2.0-x86_64'
     )
     local plat_found=0
