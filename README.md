@@ -52,6 +52,19 @@ This script creates 4 subdirectories:
 
 When the build is complete you can safely remove the archives, bld and src directory trees to save disk space. In fact you can remove everything under directory /opt/gcc483/4.8.3/ except the contents of the /opt/gcc483/4.8.3/rtf directory tree to save disk space.
 
+Disk usage
+
+    du -h --max-depth=1 /opt/gcc483/4.8.3/
+    4.8G    /opt/gcc483/4.8.3/bld
+    2.0G    /opt/gcc483/4.8.3/src
+    936M    /opt/gcc483/4.8.3/rtf
+    16M     /opt/gcc483/4.8.3/logs
+    188M    /opt/gcc483/4.8.3/archives
+    588K    /opt/gcc483/4.8.3/.git
+    7.8G    /opt/gcc483/4.8.3/
+
+Directory and file structure
+
     ls -lah /opt/gcc483/4.8.3/
     total 72K
     drwxr-xr-x  8 root root 4.0K Mar 16 23:09 .
