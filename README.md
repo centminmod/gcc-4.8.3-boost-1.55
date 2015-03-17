@@ -52,6 +52,13 @@ This script creates 4 subdirectories:
 
 When the build is complete you can safely remove the archives, bld and src directory trees to save disk space. In fact you can remove everything under directory /opt/gcc483/4.8.3/ except the contents of the /opt/gcc483/4.8.3/rtf directory tree to save disk space.
 
+To remove
+
+    rm -rf /opt/gcc483/4.8.3/bld
+    rm -rf /opt/gcc483/4.8.3/src
+    rm -rf /opt/gcc483/4.8.3/logs
+    rm -rf /opt/gcc483/4.8.3/archives
+
 Disk usage
 
     du -h --max-depth=1 /opt/gcc483/4.8.3/
