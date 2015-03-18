@@ -10,6 +10,7 @@ To use it:
     $ cd /opt/gcc483
     $ git clone https://github.com/centminmod/gcc-4.8.3-boost-1.55.git 4.8.3
     $ cd 4.8.3
+    $ chmod 0700 bld.sh
     $ make
 
 on 4 cpu thread OpenVZ 1GB Ram server make took just over 93 minutes to compile
